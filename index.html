@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kawaii Cats</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Trebuchet MS", sans-serif;
+            background: linear-gradient(180deg, #ffe6f3 0%, #fff9fe 100%);
+            color: #444;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 2.8rem;
+            color: #ff8ac9;
+            text-shadow: 2px 2px #ffd1e9;
+        }
+
+        .container {
+            margin-top: 20px;
+            padding: 25px;
+            border-radius: 25px;
+            background: #ffffffaa;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 8px 20px rgba(255, 140, 190, 0.25);
+            text-align: center;
+            width: 85%;
+            max-width: 600px;
+            border: 3px dashed #ffb7e2;
+            position: relative;
+        }
+
+        .container::before,
+        .container::after {
+            content: "♡";
+            font-size: 2rem;
+            color: #ff9ed6;
+            position: absolute;
+        }
+
+        .container::before {
+            top: -18px;
+            left: 25px;
+        }
+
+        .container::after {
+            bottom: -18px;
+            right: 25px;
+        }
+
+        img.cats {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 20px;
+            box-shadow: 0 6px 15px rgba(255, 120, 180, 0.25);
+            border: 4px solid #ffcced;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #ff6eb4;
+            text-shadow: 1px 1px #ffe4f3;
+        }
+
+        .sparkles {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Kawaii Cats ✧˖°</h1>
+
+    <div class="container">
+        <div class="sparkles">✧･ﾟ: *✧･ﾟ:*  ♡  *:･ﾟ✧*:･ﾟ✧</div>
+        
+        <img src="image.png" alt="Cute Cats" class="cats" />
+
+        <p>
+            Two tiny angels always together.<br>
+            Thanks for visiting my little pastel corner!
+        </p>
+
+        <div class="sparkles">⋆｡°✩⋆⁺₊✧</div>
+    </div>
+</body>
+</html>
